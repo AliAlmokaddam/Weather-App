@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+  background-color: #F3F4F6;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+}
+
+.forecast-card.swiper-slide {
+  width: 100px !important;
+  @media (min-width: 576px) {
+    width: 200px !important;
+  }
+
+}
+
+.swiper-button-disabled {
+  display: none !important;
+}
+
+.swiper-button-prev:after, .swiper-button-next:after  {
+  font-size: 20px !important;
+}
+
+.swiper-button-next, .swiper-button-prev {
+  color: black !important;
+  background-color: #F9FAFB !important;
+  width: 50px !important;
+  height: 50px !important;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 440px !important;
+}
+
+.main-slide.swiper-slide {
+  height: 460px !important;
+}
+
+.main-swiper.swiper-wrapper {
+  height: 530px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: gray !important;
+  height: 10px !important;
+  width: 10px !important;
+}
+
+.swiper-pagination-bullet {
+  height: 10px !important;
+  width: 10px !important;
+}

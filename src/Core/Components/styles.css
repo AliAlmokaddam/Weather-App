@@ -1,0 +1,36 @@
+.temperature-card {
+    background: rgb(131,178,250);
+    background: linear-gradient(90deg, rgba(131,178,250,1) 0%, rgba(75,157,231,1) 100%);
+}
+
+.pollen-card {
+    background: rgb(252,211,77);
+    background: linear-gradient(90deg, rgba(252,211,77,1) 0%, rgba(251,191,36,1) 47%, rgba(251,146,60,1) 76%, rgba(249,115,22,1) 100%);
+}
+
+.ant-card-body {
+    padding: 10px !important;
+    display: flex;
+    width: 100% !important;
+}
+
+.ant-progress-text {
+   color: white !important;
+}
+
+.ant-progress .ant-progress-circle-trail {
+    stroke: #FFEDD5;
+}
+
+.ant-progress.ant-progress-circle .ant-progress-text {
+    inset-block-start: 40% !important;
+}
+
+.anticon-arrow-down {
+    color: red
+}
+
+.anticon-arrow-up {
+    color: blue;
+}
+
